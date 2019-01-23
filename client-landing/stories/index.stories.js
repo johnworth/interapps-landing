@@ -13,6 +13,7 @@ import LandingResponsiveDrawerTest from "./LandingResponsiveDrawer.stories";
 
 import NavListTest from "./NavList.stories";
 import ErrorCardTest from "./ErrorCard.Stories";
+import ErrorSnackbarTest from "./ErrorSnackbar.stories";
 
 storiesOf("apps/AppCard", module).add("with app", () => <AppCardTest/>);
 storiesOf("apps/AppCardGrid", module).add("with app grid", () => <AppCardGridTest/>);
@@ -28,7 +29,4 @@ storiesOf("landing/LandingResponsiveDrawer", module)
 storiesOf("nav/NavList", module).add("with Nav List", () => <NavListTest/>);
 
 storiesOf("error/ErrorCard", module).add("with error", () => <ErrorCardTest/>);
-
-
-
-
+storiesOf("error/ErrorSnackbarTest", module).add("with error", () => <ErrorSnackbarTest/>);
