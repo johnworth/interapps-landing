@@ -29,4 +29,3 @@ storiesOf("landing/LandingResponsiveDrawer", module)
 storiesOf("nav/NavList", module).add("with Nav List", () => <NavListTest/>);
 
 storiesOf("error/ErrorCard", module).add("with error", () => <ErrorCardTest/>);
-storiesOf("error/ErrorSnackbarTest", module).add("with error", () => <ErrorSnackbarTest/>);
